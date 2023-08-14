@@ -652,7 +652,7 @@ if __name__ == "__main__":
     message_queue = Queue()
     user_sessions = {}
 
-    user_data_dir = 'C:\\Users\\user\\Desktop\\2022\\midjourney\\data'
+    user_data_dir = 'data'
     if not os.path.exists(user_data_dir):
         os.makedirs(user_data_dir)
 

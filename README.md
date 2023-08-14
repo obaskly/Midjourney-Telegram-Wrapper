@@ -35,6 +35,6 @@ pip install selenium openai pyautogui httpx aiohttp
 
 ## 🎥 Bot in action
 
-[Bot Video](https://github.com/obaskly/midjourney_telegram_bot/blob/main/poc.mp4)
+https://github.com/obaskly/midjourney_telegram_bot/assets/11092871/0fef226c-5a88-4029-90a5-f875007f4abb
 
-*Click the link above to view the video.*
+

@@ -4,33 +4,35 @@ A feature-rich Telegram bot that seamlessly integrates with Midjourney Discord.
 
 ## 🌟 Features
 
-1. **Telegram Interactions**: Engage and astonish your Telegram audience with dynamic responses. 📱
-2. **Selenium-powered Web Automation**: Dive deep into web realms, extracting and manipulating content via Discord bots. 🌐
-3. **OpenAI Integration**: Unleash the magic of OpenAI for generating mesmerizing images and detailed prompts. 🧠✨
-4. **User Data Management**: Keep track of your users with grace, ensuring every interaction counts. 📊
+1. **Telegram Interactions** 📱
+2. **Selenium-powered Web Automation** 🌐
+3. **OpenAI Integration** 🧠✨
+4. **User Data Management** 📊
+5. **Super fast interaction** ⚡
 
 ## 🔍 Key Functions
 
-- `load_user_times()`: Rewind time and recall user interactions from a neatly stored JSON. ⏳
-- `save_user_times()`: Preserve memories by saving user interactions for future reference. 💾
-- `generate_img()`: Craft pixel-perfect images with the power of OpenAI. 🖼️
-- `generate_prompt()`: Conjure detailed prompts that OpenAI simply can't resist. 💌
-- `create_chrome_driver()`: Cruise the web highways with a finely tuned Chrome driver. 🌐
-- `find_*_image()`: Unearth precious image URLs from the vastness of Discord chats. 🔍
-- `handle_file_upload_dialog()`: Dance with browser dialogs, uploading images with finesse. 🔄
+- Rewind time and recall user interactions from a neatly stored JSON. ⏳
+- Preserve memories by saving user interactions for future reference. 💾
+- Craft images with the DALL-E. 🖼️
+- Generate detailed prompts using gpt-turno model. 🔄
+- Limit the commands usage to once in 24h. Except for the Admin. 🌐
+- Login once and you don't have to login again. 🔍
 
 ## 🚀 Usage
 
-1. 🗝️ Fill in the secret sauce: Your essential API keys and constants at the script's helm.
-2. 📦 Make sure all your toolboxes (dependencies) are ready and waiting.
+1. 🗝️ Change the Telegram bot token, the Admin id, and the openai api key.
+2. 📦 Create a private server and add Midjrouney bot to it. Navigate to the bot channel and copy the link and paste it in line 660.
 3. 🚀 Launch the script and watch the bot come alive!
 
 ## 🛠️ Dependencies
 
-Gear up by installing the necessary Python toolkits:
+Install the necessary Python libraries:
 
 ```
 pip install selenium openai pyautogui httpx aiohttp
 ```
 
-📝 **Note**: Dive deeper into the script for a more comprehensive understanding. Tailor this guide as you uncover more treasures!
+## 🎥 Bot in action
+
+
